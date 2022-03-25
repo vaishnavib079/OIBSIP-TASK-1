@@ -1,0 +1,284 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+  font-family: 'Montserrat','sans-serif';
+}
+
+a{
+  text-decoration: none;
+}
+
+
+ .container{
+   min-width: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: centers;
+
+ }
+ 
+/*Header section start*/
+
+
+
+.nav{
+  background: grey;
+  height: 60px;
+  width: 100%;
+  
+}
+
+
+.nav ul{
+  float: right;
+  margin-right: 20px;
+  
+    
+}
+
+
+.nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin:  0 5px;
+   
+ }
+
+ 
+nav ul li a{
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  
+
+}
+
+ a:hover{
+ color: crimson;
+  
+
+}
+
+/*Header section end*/
+
+ /*Hero section start*/
+
+#hero h1{
+  display: block;
+  width: fit-content;
+  text-align: center;
+  color: rgb(243, 242, 242);
+  font-size: 3rem;
+  position: relative;
+  
+}
+ #hero {
+  padding: 279px;
+  background: url(guitar.jpg);
+  background-size: cover;
+  background-position: top-center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+ }
+
+ #hero .cta span{
+   position: absolute;
+   top: 0;
+   left:0;
+   height: 100%;
+   width: 100%;
+  background-color: crimson;
+ }
+
+ #hero .cta{
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 100%;
+  color: crimson;
+  background-color: transparent;
+  border: 2px solid crimson;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 10px;
+
+}
+
+#hero .cta:hover { 
+  color: white;
+  background-color:crimson;
+}
+/*hero section end*/
+
+/*services section start*/
+
+
+h2{
+  font-size: 35px;
+  color: crimson;
+  font-style:initial;
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+  margin-left: 47%;
+  text-transform: uppercase;
+  position: relative;  
+}
+
+
+.igallery {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 30px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 215px;
+  
+ }
+
+ .igallery:hover {
+  border: 1px solid black;
+  
+  
+ }
+
+ .igallery img {
+  width: 100%;
+  height: 150px;
+ }
+
+ .desc {
+  padding: 25px;
+  text-align: center;
+
+ }  
+
+ .button{
+   opacity:initial;
+   background-color:lightskyblue;
+   color: ivory;
+   border: none;
+   padding: 10px;
+   text-align: center;
+   
+   
+ }
+
+ .button:hover{
+   color: black;
+   background-color:grey;
+ }
+
+/*services section end*/
+
+/*artist section start*/
+
+
+
+.ot{
+  padding-left: 100px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+  float: left;
+  width: 215px;
+}
+
+.ot img {
+  width: 230%;
+  height: 200px;
+}
+
+.ot :hover{
+  transform: scale(1.3);
+  z-index: 3;
+}
+/*artist section end*/
+
+/*aboutus section start*/
+
+.auc{
+  
+  margin-right: 10%;
+  margin-left: 10%;
+  content: center;
+   
+}
+
+
+h3{
+  background-image: url(img2.jpg) ;
+  background-size: cover;
+  height: 70%;
+  width: 100%;
+  background-position: cover;
+  font-size: 190%;
+  margin-top: 1.5%;
+  margin-bottom: 5;
+  padding:25%;
+  text-align:justify;
+  color:whitesmoke;
+  
+  
+}
+/*aboutus section end*/
+
+/*contactus section start*/
+
+
+
+h4{
+  font-size: 35px;
+  color: crimson;
+  font-style:initial;
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+  margin-left: 7%;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  position: relative; 
+}
+
+.contactc {
+  
+  margin: 1px;
+  font-size: 14px;
+  padding-left: 170px;
+  padding-right: 20px;
+  align-content: center;
+  padding-bottom: 70px;
+  
+  
+}
+
+.contactc img{
+  width: 30%;
+  height: 30%;
+  padding-bottom: 10px;
+  align-content: center;
+  
+}
+
+.contactc:hover{
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+
+/*contactus section end*/
+
+
+
+
+
+
